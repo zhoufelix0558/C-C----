@@ -1,4 +1,4 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 int main() {
 	typedef struct Student {
 		char name[20];
@@ -6,13 +6,13 @@ int main() {
 	} stu;
 
 	stu ss = { "helloworld",23 };             
-		//ÄÜÍ¨¹ı
+		//èƒ½é€šè¿‡
 
 	//struct Student ss = { "helloworld",23 };  
-		//ÄÜÍ¨¹ı
+		//èƒ½é€šè¿‡
 
 	//Student ss={ "helloworld",23};            
-		//ÄÜÍ¨¹ı
+		//èƒ½é€šè¿‡
 
 	printf("typedef-test-cpp:    %s,%d", ss.name, ss.number);
 	getchar();
@@ -20,24 +20,24 @@ int main() {
 }
 
 /*****************************************
-½áÂÛ£ºtypedef structÓëstructµÄÇø±ğ£º
+ç»“è®ºï¼štypedef structä¸structçš„åŒºåˆ«ï¼š
 typedef tagMystruct{
 int iNumber;
 long iLength;}Mystruct;
-1.ÓĞtypedefµÄÊ±ºòMystructÊÇ¶¨ÒåÀàĞÍ
-2.Ã»ÓĞµÄÊ±ºòMystructÊÇÒ»¸ö¾ßÌåµÄ½á¹¹ÌåÊµÀı
+1.æœ‰typedefçš„æ—¶å€™Mystructæ˜¯å®šä¹‰ç±»å‹
+2.æ²¡æœ‰çš„æ—¶å€™Mystructæ˜¯ä¸€ä¸ªå…·ä½“çš„ç»“æ„ä½“å®ä¾‹
 
-½áÂÛ2£ºC/C++ÖĞstruct¶¨ÒåµÄÇø±ğ£º
+ç»“è®º2ï¼šC/C++ä¸­structå®šä¹‰çš„åŒºåˆ«ï¼š
 typedef tagMystruct{
 int iNumber;
 long iLength;}Mystruct;
-1.CÖĞ£¬ÉùÃ÷ºóÉêÇë½á¹¹±äÁ¿µÄ·½·¨£º
-£¨1£©struct tagMystruct ±äÁ¿Ãû
-£¨2£©Mystruct ±äÁ¿Ãû
-2.C++ÖĞ£¬ÉùÃ÷ºóÉêÇë½á¹¹±äÁ¿µÄ·½·¨£º
-£¨1£©struct tagMystruct ±äÁ¿Ãû
-£¨2£©Mystruct ±äÁ¿Ãû
-£¨3£©tagMystruct ±äÁ¿Ãû
-¿É¼ûC++ÖĞ²»½ö¼æÈİÁËCµÄÁ½ÖÖ£¬¶øÇÒÍØÕ¹ÁËÒ»ÖÖ¡£
+1.Cä¸­ï¼Œå£°æ˜åç”³è¯·ç»“æ„å˜é‡çš„æ–¹æ³•ï¼š
+ï¼ˆ1ï¼‰struct tagMystruct å˜é‡å
+ï¼ˆ2ï¼‰Mystruct å˜é‡å
+2.C++ä¸­ï¼Œå£°æ˜åç”³è¯·ç»“æ„å˜é‡çš„æ–¹æ³•ï¼š
+ï¼ˆ1ï¼‰struct tagMystruct å˜é‡å
+ï¼ˆ2ï¼‰Mystruct å˜é‡å
+ï¼ˆ3ï¼‰tagMystruct å˜é‡å
+å¯è§C++ä¸­ä¸ä»…å…¼å®¹äº†Cçš„ä¸¤ç§ï¼Œè€Œä¸”æ‹“å±•äº†ä¸€ç§ã€‚
 
 */

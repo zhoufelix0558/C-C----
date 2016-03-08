@@ -1,20 +1,20 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 int main() {
 	typedef struct Student {
 		char name[20];
 		int number;
 	}stu;
 	//struct Student{...}ss={ "helloworld",23}; 
-		//ÄÜÍ¨¹ı£¬Ö±½Ó¶¨Òå£¬ssÊÇÒ»¸ö¾ßÌåµÄ½á¹¹ÌåÊµÀı
+		//èƒ½é€šè¿‡ï¼Œç›´æ¥å®šä¹‰ï¼Œssæ˜¯ä¸€ä¸ªå…·ä½“çš„ç»“æ„ä½“å®ä¾‹
 
 	stu ss = { "helloworld",23 };                  
-		//ÄÜÍ¨¹ı
+		//èƒ½é€šè¿‡
 
 	//struct Student ss = { "helloworld",23 };  
-		//ÄÜÍ¨¹ı
+		//èƒ½é€šè¿‡
 
 	//Student ss={ "helloworld",23};            
-		//²»ĞĞ£¬µ«ÊÇºó×º»»³Écpp¾ÍĞĞÁË 
+		//ä¸è¡Œï¼Œä½†æ˜¯åç¼€æ¢æˆcppå°±è¡Œäº† 
 
 	printf("typedef-test-c:   %s,%d", ss.name, ss.number);
 	getchar();
